@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+
+</head>
+<body>
+  
+  
+  <div class="container min-h-screen bg-[url('images/Homepage-Model-X-Desktop-US.png')] bg-center    
+  bg-cover px-28 py-5">
+  <!-- puts background image and centers it -->
+   <NAV class="flex items-center">
+        <img src="images/tesla-logo-black.webp" class="h-14 w-40 cursor-pointer"> 
+        <!-- puts logo and resize image        -->
+        <ul class="flex-1 text-center">
+            <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">home</a></li>
+            <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">about</a></li>
+            <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">features</a></li>
+            <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">contact</a></li>
+            <!-- aligns text and puts it in horizontal position -->
+        </ul>
+        <img src="images/teslalogo-red.jpg" class="h-14 w-40">
+        <!-- put's another image and resie it -->
+    </NAV>
+
+
+    <div class="mt-12">
+      <h1 class="text-6xl font-semibold text-center">Model X</h1>
+      <p class="text-lg"> The Model X Plaid is the highest performance SUV ever produced in the world and has the highest power and acceleration available in an SUV. The updated battery design allows vehicles with both Long Range and Plaid configurations to be driven again and again on the track without any loss of performance.</p>
+   <!-- puts text and changes size of it -->
+   <div class="mt-40">
+    <a href="#" class="bg-white rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-black hover:text-black duration-300 hover:border border-transparent">Order now</a>
+    <a href="#" class="bg-white rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-black hover:text-black duration-300 hover:border border-transparent">downloand App <span class=" inline-block">&#8595;</span></a>
+   </div>
+    </div>
+    <!-- adds buttons with a certain size and hovers it -->
+
+
+</div>
+</body>
+</html>
+
+<div class="container min-h-screen bg-[url('images/Homepage-Model-S-Desktop-US.png')] bg-center 
+  bg-cover px-28 py-5">
+<!-- puts background image and centers it -->
+  <NAV class="flex items-center">
+    <img src="images/tesla-logo-black.webp" class="h-14 w-40 cursor-pointer">
+    <ul class="flex-1 text-center">
+        <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">home</a></li>
+        <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">about</a></li>
+        <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">features</a></li>
+        <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">contact</a></li>
+         <!-- aligns text and puts it in horizontal position -->
+    </ul>
+    <img src="images/teslalogo-red.jpg" class="h-14 w-40">
+</NAV>
+ <!-- puts logo and resize image        -->
+<div class="mt-12">
+  <h1 class="text-6xl font-semibold text-center">Model S</h1>
+  <p class="text-lg">Model S Plaid
+    You can maintain over 1,000 horsepower at up to 322 km/h with Tri-Motor all-wheel drive, which features torque vectoring and three independent, carbon fiber-encased electric motors.</p>
+<!-- puts text and changes size of it -->
+<div class="mt-40">
+
+</div>
+
